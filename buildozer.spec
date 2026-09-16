@@ -4,11 +4,11 @@ package.name = zppolytechnic
 package.domain = org.zp
 
 source.dir = .
-source.include_exts = py,png,jpg,jpeg,kv,atlas,json,xlsx,xls
+source.include_exts = py,png,jpg,jpeg,kv,atlas,xls
 
 version = 0.1
 
-requirements = python3,kivy==2.3.0,requests,urllib3,charset-normalizer,idna,certifi,openpyxl
+requirements = python3,kivy==2.3.0,xlrd==2.0.1,requests,urllib3,charset-normalizer,idna,certifi
 
 orientation = portrait
 fullscreen = 0
